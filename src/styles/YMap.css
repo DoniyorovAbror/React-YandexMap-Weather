@@ -1,0 +1,26 @@
+body{
+    background-color: #e4ebf8;
+}
+
+.form-check-label{
+    cursor: pointer;
+}
+.toast{
+    border-radius: 15px;
+    background-color: #0996af59;
+    font-family: serif;
+    font-size: large;
+    color: rgb(1, 16, 29);
+}
+.btn{
+    padding: auto;
+    background-color: #0996af59;
+    border: solid 1px black;
+    color: black;
+}
+.list-group-item{
+    background-color: transparent;
+    font-family: serif;
+    font-size: large;
+    color: rgb(1, 16, 29);
+}
