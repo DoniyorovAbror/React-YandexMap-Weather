@@ -4,7 +4,7 @@ import "../styles/YMap.css";
 
 const YandexMaps = (props) => {
     return (
-        <YMaps query={{ apikey: "8b56a857-f05f-4dc6-a91b-bc58f302ff21" }}>
+        <YMaps query={{ apikey: "API_KEY" }}>
             <Map state={props.defState} width="100%" height="400px">
                 <Placemark geometry={props.defPlacemark} />
             </Map>
