@@ -45,7 +45,7 @@ function App() {
         const getCityName = async () => {
             await axios
                 .get(
-                    `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=1808d2c3e248867be50cfc0f471225f3`
+                    `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=[API_KEY]`
                 )
                 .then((data) => setCoord([data.data[0].lat, data.data[0].lon]))
                 .catch(() => alert("Введите имя города"));
