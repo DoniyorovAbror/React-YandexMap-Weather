@@ -30,7 +30,7 @@ function Weather(props) {
         const getWeather = async () => {
             const { data } = await axios
                 .get(
-                    `https://api.openweathermap.org/data/3.0/onecall?lat=${props.coords[0]}&lon=${props.coords[1]}&exclude=current,minutely,hourly,alerts&lang=ru&units=metric&appid=c42e50eadc87c93fba789bed6845d698`
+                    `https://api.openweathermap.org/data/3.0/onecall?lat=${props.coords[0]}&lon=${props.coords[1]}&exclude=current,minutely,hourly,alerts&lang=ru&units=metric&appid=[API_KEY]`
                 )
                 .catch((err) => console.log(err));
             setWeather([data]);
